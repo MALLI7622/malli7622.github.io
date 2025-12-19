@@ -50,4 +50,3 @@ I enjoy attending conferences like **NeurIPS** and **CVPR**, not just to present
 Outside research, I enjoy **traveling**, **going to the gym**, playing **sports** (mostly squash, but always up for trying new ones), and going on **hikes with random people who usually turn into friends**. I grew up in a small town in India called **Cumbum, Andhra Pradesh**, which continues to shape how I see the world.
 
 If any of this resonates with you, feel free to say **hi** — I’m always happy to chat 🙂
-
