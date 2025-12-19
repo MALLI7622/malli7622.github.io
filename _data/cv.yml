@@ -7,12 +7,12 @@
 
   type: time_table
   contents:
-    - title: MS in Computer Science
+    - title: MS in Computer Software Engineering and Machine Learning
       institution: Rochester Institute of Technology, Rochester, NY
       year: 2024 - Present
       description:
         - Full Graduate Scholarship (Merit-based)
-        - Focus on AI Safety, AI for Science, Multimodal Learning, and NeuroAI
+        - Focus on Computer Vision, AI Safety, AI for Science, Multimodal Learning, and NeuroAI
 
   type: time_table
   contents:
@@ -21,7 +21,7 @@
       year: Present
       description:
         - Independent student researcher
-        - Focus areas AI Safety, AI for Science, Multimodal Learning, and NeuroAI
+        - Focus areas Computer Vision, AI Safety, AI for Science, Multimodal Learning, and NeuroAI
     - title: Previous Experience
       institution: ISB / Spacept / IIT Madras / IIM Bangalore
       year: Various
