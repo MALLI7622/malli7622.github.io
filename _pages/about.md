@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, Nice to e-meet you 👋, maybe we can meet one day in person 🤗 maybe in a ML Conference or working together.
+Hey, Nice to e-meet you 👋, maybe we can meet one day in person maybe over a coffee chat 🤗.
 
 I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on `AI Safety`, `AI for Science`, `Multimodal Learning`, and `NeuroAI`.
 
