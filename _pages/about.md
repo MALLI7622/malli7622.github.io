@@ -28,21 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, thanks for stopping by! 👋
 
-I'm a researcher passionate about machine learning and its applications. My current focus is on building scalable solutions for challenging real-world problems.
-
-## About Me
-
-I'm interested in probabilistic modeling, deep learning, and robust AI systems. I believe in continuous learning and contributing back to the community through mentorship and collaboration.
-
-## Background
-
-Previously, I've worked across academia and industry, including internships and fellowships at leading organizations. I'm always open to collaborating on interesting projects or discussing ideas!
-
-## Let's Connect
-
-Feel free to reach out through [email](mailto:tmallikarjuna1111@gmail.com) or connect with me on my social media profiles below.
 
 Hey, Nice to e-meet you 👋, maybe we can meet one day in person 🤗 maybe in a ML Conference or working together.
 
