@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML Research @ <a href='https://www.rit.edu/'> RIT </a> • Previously: <a href='https://www.isb.edu/'>ISB</a> / <a href='https://spacept.com/'>Spacept</a> / <a href='https://www.iitm.ac.in/'>IIT Madras</a> / <a href='https://www.iimb.ac.in/'>IIM Bangalore</a> • learn ⇄ grow ⇄ teach
+subtitle: "ML Research @ <a href='https://www.rit.edu/'> RIT </a> • Previously: <a href='https://www.isb.edu/'>ISB</a> / <a href='https://spacept.com/'>Spacept</a> / <a href='https://www.iitm.ac.in/'>IIT Madras</a> / <a href='https://www.iimb.ac.in/'>IIM Bangalore</a> • learn ⇄ grow ⇄ teach"
+
 
 profile:
   align: right
