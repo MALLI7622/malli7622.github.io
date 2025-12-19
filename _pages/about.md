@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "ML Research @ <a href='https://www.rit.edu/'>RIT</a>"
+subtitle: "ML Research @ <a href='https://www.rit.edu/'>Rochester Institute of Technology </a> & <a href='https://www.isb.edu/'>Indian School of Business</a> | Previously at <a href='https://spacept.com/'>Spacept</a>, <a href='https://www.iitm.ac.in/'>IIT Madras</a>, <a href='https://www.iimb.ac.in/'>IIM Bangalore</a>"
 
 profile:
   align: right
@@ -37,7 +37,7 @@ At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhu
 
 Previously, I was a full-time researcher at the Indian School of Business almost 4 years working with Professor [Sumeet Kumar](https://sumeetkumar.in/) and my work has lead to publications in top AI conferences and awarded prestigious Kathuria Pre-Doctoral Scholarship from **Shri Nihal Chand Kathuria Education Trust**. Over the years I have published my research work at **NeurIPS**, **INFORMS Journal on Computing**, **ACL**, **ASONAM**, **INFORMS on Data Science**, and the dataset I developed on failures on Automatic Speech Recognition and correcting it has been published at AAAI.
 
-I would love to attend ML conferences like *NeurIPS*, *CVPR* to meet researchers to discuss work and life and actively review papers for conferences.
+I would love to attend ML conferences like _NeurIPS_, _CVPR_ to meet researchers to discuss work and life and actively review papers for conferences.
 
 In my spare time, I enjoy travelling, gym, sports(mostly squash but up for everything), and going on hikes with random people to make them friends. Also, I grown up in small town in India called Cumbum in Andhra Pradesh.
 
