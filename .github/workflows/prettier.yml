@@ -5,10 +5,11 @@ on:
     branches:
       - master
       - main
-  push:
-    branches:
-      - master
-      - main
+  # Disabled on push to main - only runs on PRs
+  # push:
+  #   branches:
+  #     - master
+  #     - main
 
 jobs:
   check:
