@@ -52,6 +52,43 @@
         "Publications at top-tier venues: NeurIPS, ACL, ASONAM, INFORMS Journal on Computing, INFORMS on Data Science, and AAAI",
         "Awarded prestigious Kathuria Pre-Doctoral Scholarship from Shri Nihal Chand Kathuria Education Trust"
       ]
+    },
+    {
+      "name": "Spacept",
+      "position": "Research Intern | Core ML Team",
+      "url": "https://spacept.com/",
+      "startDate": "2020-08-01",
+      "endDate": "2020-11-01",
+      "location": "Stockholm, Sweden (Remote)",
+      "summary": "Research Intern on Core ML Team developing deep learning solutions for satellite imagery analysis. Advisor: Sergiu Iliev (Founder)",
+      "highlights": [
+        "Developed a custom Deep Learning model for oil spill classification using Google Earth Engine and Sentinel satellite data of the Mauritius oil spill (July 2020), engineering scalable pipelines and augmentations",
+        "Improved accuracy from 65% to 78%, demonstrating transferability to real-world autonomous sensing applications"
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Madras",
+      "position": "Research Intern | Neuromotor Team",
+      "url": "https://www.iitm.ac.in/",
+      "startDate": "2019-12-01",
+      "endDate": "2020-03-01",
+      "location": "Chennai, India",
+      "summary": "Research Intern on Neuromotor Team working on medical imaging and CT reconstruction. Advisor: Prof. Srinivasa Chakravarthy",
+      "highlights": [
+        "Implemented Elman-Jordan-based CT reconstruction halving projections (360 → 180) for efficient imaging AI techniques extendable to on-device simulation"
+      ]
+    },
+    {
+      "name": "Indian Institute of Management Bangalore",
+      "position": "Research Intern | Research and Development Team",
+      "url": "https://www.iimb.ac.in/",
+      "startDate": "2019-05-01",
+      "endDate": "2019-07-01",
+      "location": "Bangalore, India",
+      "summary": "Research Intern on R&D Team analyzing real-time sales data and marketing analytics. Advisor: Prof. Trilochan Sastry",
+      "highlights": [
+        "Analyzed real-time data sales from Farmveda and predicted future sales, even further improving the sales by being actively involved in the Digital Marketing team"
+      ]
     }
   ],
   "volunteer": [],
