@@ -1,3 +1,4 @@
+- title: General Information
   type: map
   contents:
     - name: Full Name
@@ -5,15 +6,17 @@
     - name: Languages
       value: English, Telugu, Hindi
 
+- title: Education
   type: time_table
   contents:
-    - title: MS in Computer Software Engineering and Machine Learning
+    - title: MS in Computer Science
       institution: Rochester Institute of Technology, Rochester, NY
       year: 2024 - Present
       description:
         - Full Graduate Scholarship (Merit-based)
-        - Focus on Computer Vision, AI Safety, AI for Science, Multimodal Learning, and NeuroAI
+        - Focus on AI Safety, AI for Science, Multimodal Learning, and NeuroAI
 
+- title: Experience
   type: time_table
   contents:
     - title: ML Research
@@ -21,13 +24,14 @@
       year: Present
       description:
         - Independent student researcher
-        - Focus areas Computer Vision, AI Safety, AI for Science, Multimodal Learning, and NeuroAI
+        - Focus areas AI Safety, AI for Science, Multimodal Learning, and NeuroAI
     - title: Previous Experience
       institution: ISB / Spacept / IIT Madras / IIM Bangalore
       year: Various
       description:
         - Multiple roles across academia and industry
 
+- title: Honors and Awards
   type: time_table
   contents:
     - year: 2025
@@ -35,6 +39,7 @@
         - NeurIPS'25 FM4LS Publication (Sole Author)
         - Full Graduate Scholarship at RIT
 
+- title: Academic Interests
   type: nested_list
   contents:
     - title: AI Safety
@@ -48,6 +53,7 @@
     - title: Multimodal Learning & NeuroAI
       items:
         - Cross-modal learning systems
+        - Brain-inspired AI architectures
         - Brain-inspired AI architectures
 
   type: list

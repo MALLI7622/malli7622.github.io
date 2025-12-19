@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: Mallikarjuna_CV.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: My professional curriculum vitae including education, experience, and research interests in AI Safety, AI for Science, Multimodal Learning, and NeuroAI.
 toc:
   sidebar: left
 ---
