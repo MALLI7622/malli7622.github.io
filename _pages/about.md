@@ -34,16 +34,18 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-👋 Hi, nice to e-meet you!
+Hey, Nice to e-meet you 👋, maybe we can meet one day in person 🤗 maybe in a ML Conference or working together. 
 
-I’m currently finishing my **MS**, spending most of my time on **active research** rather than coursework. I’m supported by a **full merit-based graduate scholarship** and consider myself an **independent student researcher** working on **AI Safety, AI for Science, Multimodal Learning, and NeuroAI**.
+I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI. 
 
-Recently, I authored a **sole-author paper at NeurIPS 2025 (FM4LS Workshop)** a milestone I’m especially proud of—which also led to new research collaborations after presenting at the conference.
+My passion towards research leads to sole-author publication at NeurIPS'25 FM4LS which I more proud of and got a collaboration after attending the conference for presenting my work.
 
-At **Rochester Institute of Technology (RIT)**, I work with Professor **[Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/)**, and I actively collaborate with Professor **[Sumeet Kumar](https://sumeetkumar.in/)** at the **Indian School of Business** on **AI Safety** and **AI for Social Good**. Previously, I spent nearly **four years as a full-time researcher at ISB**, supported by the **Kathuria Pre-Doctoral Fellowship**.
+At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/) and active collaboration with Professor [Sumeet Kumar](https://sumeetkumar.in/) at the Indian School of Business working on AI Safety, and AI for Social Good. 
 
-My work has appeared at **NeurIPS, ACL, AAAI, ASONAM**, the **INFORMS Journal on Computing**, and **INFORMS on Data Science**, and includes publicly released datasets (e.g., on **ASR failure analysis and correction**).
+Previously, I was a full-time researcher at the Indian School of Business almost 4 years working with Professor [Sumeet Kumar](https://sumeetkumar.in/) and my work has lead to publications in top AI conferences and awarded prestigious Kathuria Pre-Doctoral Scholarship from Shri Nihal Chand Kathuria Education Trust. Over the years I have published my research work at NeurIPS, INFORMS Journal on Computing, ACL, ASONAM, INFORMS on Data Science, and the dataset I developed on failures on Automatic Speech Recognition and correcting it has been published at AAAI. 
 
-I enjoy attending conferences like **NeurIPS** and **CVPR** to present work, meet researchers, exchange ideas, and review papers. Outside research, I enjoy **traveling**, **sports** (mostly squash), **hiking**, and meeting new people. I grew up in **Cumbum, Andhra Pradesh**, India.
+I would love to attend ML conferences like NeurIPS, CVPR to meet researchers to discuss work and life and actively review papers for conferences. 
 
-If this resonates with you, feel free to say **hi**—always happy to chat 🙂
+In my spare time, I enjoy travelling, gym, sports(mostly squash but up for everything), and going on hikes with random people to make them friends. Also, I grown up in small town in India called Cumbum in Andhra Pradesh.
+
+I'm always up for chatting about life, research or anything, feel to free email me 🙂
