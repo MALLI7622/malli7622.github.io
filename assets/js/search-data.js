@@ -396,10 +396,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-i-received-a-complimentary-registration-for-attending-neurips-25-sparkles-smilie",
-          title: 'I received a complimentary registration for attending NeurIPS’25 :sparkles: :smilie:',
+            },},{id: "news-i-received-a-complimentary-registration-for-attending-neurips-25-sparkles-smiley",
+          title: 'I received a complimentary registration for attending NeurIPS’25 :sparkles: :smiley:',
           description: "",
-          section: "News",},{id: "news-i-am-at-san-diego-for-presenting-my-work-at-neurips-25-feel-free-to-send-an-email-to-catchup-smilie",
+          section: "News",},{id: "news-i-am-at-san-diego-for-presenting-my-work-at-neurips-25-feel-free-to-send-an-email-to-catchup-smiley",
           title: 'I am at San Diego for presenting my work at NeurIPS’25, feel free...',
           description: "",
           section: "News",},{id: "projects-project-1",
