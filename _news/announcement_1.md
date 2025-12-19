@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Monday, Dec 1st 2025 12:23 PM
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I am at San Diego for presenting my work at NeurIPS'25, feel free to send an email to catchup :smilie:
+
