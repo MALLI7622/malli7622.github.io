@@ -391,8 +391,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-sole-author-publication-at-neurips-39-25-fm4ls-https-nips2025fm4ls-github-io-pages-organizers-html-on-drug-text-alignment-please-read-my-paper-and-let-39-s-meet-at-neurips-39-25",
-          title: 'My sole author publication at [NeurIPS&amp;#39;25 FM4LS](https://nips2025fm4ls.github.io/pages/organizers.html) on Drug-Text Alignment. Please read my...',
+            },},{id: "news-my-sole-author-publication-at-neurips-39-25-fm4ls-on-drug-text-alignment-please-read-my-paper-and-let-39-s-meet-at-neurips-39-25",
+          title: 'My sole author publication at NeurIPS&amp;#39;25 FM4LS on Drug-Text Alignment. Please read my...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
