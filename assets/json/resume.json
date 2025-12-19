@@ -29,6 +29,7 @@
       "url": "https://www.rit.edu/",
       "startDate": "2024-09-01",
       "endDate": "",
+      "location": "Rochester, NY, USA",
       "summary": "Independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI. Advisor: Prof. Ashique KhudaBukhsh",
       "highlights": [
         "Sole-authored publication at NeurIPS 2025 (FM4LS) on 'Thin Bridges for Drug Text Alignment: Lightweight Contrastive Learning for Target Specific Drug Retrieval' - achieving Recall@1 = 0.762 on ChEMBL and 3× scaffold-split gain over baselines",
@@ -39,16 +40,17 @@
     },
     {
       "name": "Indian School of Business",
-      "position": "Full-time Researcher",
+      "position": "Research Assistant | Pre-doctoral Program",
       "url": "https://www.isb.edu/",
-      "startDate": "2020-01-01",
+      "startDate": "2020-12-01",
       "endDate": "2024-08-01",
-      "summary": "Full-time researcher working on AI for Social Good and computational social science projects with Prof. Sumeet Kumar",
+      "location": "Hyderabad, India",
+      "summary": "Research Assistant in Pre-doctoral Program working on AI for Social Good and AI Safety problems on social media platforms. Advisor: Prof. Sumeet Kumar",
       "highlights": [
+        "Worked on AI for Social Good and AI Safety problems on social media platforms by processing large multimodal datasets (YouTube, Amazon, Twitter) at TeraBytes scale, leading to publications at AAAI, ASONAM, INFORMS, and ACL",
+        "Applied PyTorch, OpenCV, and CUDA to accelerate large-scale computer vision pipelines, optimizing training and inference speed for terabyte-scale datasets",
         "Publications at top-tier venues: NeurIPS, ACL, ASONAM, INFORMS Journal on Computing, INFORMS on Data Science, and AAAI",
-        "Awarded prestigious Kathuria Pre-Doctoral Scholarship from Shri Nihal Chand Kathuria Education Trust",
-        "Developed YouTube Dislikes dataset and conducted studies on gender biases and stereotyping in children's videos",
-        "Collaborated on automatic speech recognition failure detection and correction dataset published at AAAI"
+        "Awarded prestigious Kathuria Pre-Doctoral Scholarship from Shri Nihal Chand Kathuria Education Trust"
       ]
     }
   ],
