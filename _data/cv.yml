@@ -59,3 +59,20 @@
   type: list
   contents:
     - <u>Philosophy:</u> learn ⇄ grow ⇄ teach
+
+- title: References
+  type: list
+  contents:
+    - name: Professor Ashique KhudaBukhsh
+      reference: Rochester Institute of Technology
+      icon: far fa-user
+      items:
+        - Advisor for ML Research at RIT
+        - Research interests in NLP, social computing, and machine learning
+
+    - name: Professor Sumeet Kumar
+      reference: Indian School of Business
+      icon: fas fa-user-tie
+      items:
+        - Mentor and collaborator on AI for Social Good projects
+        - Co-author on multiple publications in top-tier venues

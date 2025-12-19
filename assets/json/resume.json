@@ -1,53 +1,131 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mallikarjuna Tupakula",
+    "label": "ML Researcher | AI Safety & Science",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "tmallikarjuna1111@gmail.com",
+    "phone": "",
+    "url": "https://malli7622.github.io/",
+    "summary": "Independent student researcher pursuing MS in Computer Science at Rochester Institute of Technology with full graduate scholarship. Focused on AI Safety, AI for Science, Multimodal Learning, and NeuroAI. Published sole-author work at NeurIPS'25 FM4LS workshop.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "430 Apartment-C Clayton Arms",
+      "postalCode": "NY 14623",
+      "city": "Rochester",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Email",
+        "username": "tmallikarjuna1111@gmail.com",
+        "url": "mailto:tmallikarjuna1111@gmail.com"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Rochester Institute of Technology",
+      "position": "ML Researcher",
+      "url": "https://www.rit.edu/",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI.",
+      "highlights": ["NeurIPS'25 FM4LS Workshop Publication (Sole Author)", "Full Graduate Scholarship (Merit-based)", "Advisor: Professor Ashique KhudaBukhsh"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Indian School of Business",
+      "position": "Full-time Researcher",
+      "url": "https://www.isb.edu/",
+      "startDate": "2021-01-01",
+      "endDate": "2024-01-01",
+      "summary": "Full-time researcher working on AI for Social Good and computational social science projects.",
+      "highlights": ["Publications in NeurIPS, ACL, ASONAM, INFORMS conferences", "Awarded Kathuria Pre-Doctoral Scholarship", "Mentor: Professor Sumeet Kumar"]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Rochester Institute of Technology, Rochester, NY",
+      "url": "https://www.rit.edu/",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "score": "Full Graduate Scholarship (Merit-based)",
+      "courses": ["AI Safety", "AI for Science", "Multimodal Learning", "NeuroAI"]
+    },
+    {
+      "institution": "Education Background",
+      "url": "",
+      "area": "Computer Science & Engineering",
+      "studyType": "BE",
+      "startDate": "",
+      "endDate": "",
+      "score": ""
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "level": "Expert",
+      "keywords": ["Deep Learning", "Probabilistic Modeling", "Neural Networks"]
+    },
+    {
+      "name": "AI Research",
+      "level": "Expert",
+      "keywords": ["AI Safety", "AI for Science", "Multimodal Learning", "NeuroAI"]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": ["Python", "PyTorch", "TensorFlow", "Research"]
+    },
+    {
+      "name": "Data Science",
+      "level": "Advanced",
+      "keywords": ["Data Analysis", "Visualization", "Statistical Modeling"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI Safety",
+      "keywords": ["Safe AI Systems", "Alignment Research", "Robust ML"]
+    },
+    {
+      "name": "AI for Science",
+      "keywords": ["Drug Discovery", "Scientific ML", "Foundation Models"]
+    },
+    {
+      "name": "Multimodal Learning",
+      "keywords": ["Cross-modal Learning", "Vision-Language Models"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor Ashique KhudaBukhsh",
+      "reference": "Rochester Institute of Technology, Advisor"
+    },
+    {
+      "name": "Professor Sumeet Kumar",
+      "reference": "Indian School of Business, Mentor & Collaborator"
+    }
+  ]
+}
       "location": "Zurich, Switzerland",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
