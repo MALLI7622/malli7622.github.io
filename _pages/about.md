@@ -33,4 +33,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hey 
+Hey, Nice to e-meet you 👋, maybe we can meet one day in person 🤗 maybe in a ML Conference or working together.
+
+I am currently sailing to finish my MS and doing more active research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI. My madneess to research leads to sole-author publication at NeurIPS'25 FM4LS which I more proud of and got a collaboration after attending the conference for presenting my work.
+
+At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/)  and active collaboration with Professor [Sumeet Kumar](https://sumeetkumar.in/) at the Indian School of Business working on AI Safety, and AI for Social Good.
