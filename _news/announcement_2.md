@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received a complimentary registration for attending NeurIPS'25 :sparkles: :smilie:
+I received a complimentary registration for attending NeurIPS'25 :sparkles: :smiley:

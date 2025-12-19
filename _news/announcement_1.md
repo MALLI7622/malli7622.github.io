@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I am at San Diego for presenting my work at NeurIPS'25, feel free to send an email to catchup :smilie:
+I am at San Diego for presenting my work at NeurIPS'25, feel free to send an email to catchup :smiley:
 

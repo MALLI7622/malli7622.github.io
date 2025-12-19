@@ -59,7 +59,7 @@
       "url": "https://spacept.com/",
       "startDate": "2020-08-01",
       "endDate": "2020-11-01",
-      "location": "Stockholm, Sweden (Remote)",
+      "location": "Stockholm (Remote)",
       "summary": "Research Intern on Core ML Team developing deep learning solutions for satellite imagery analysis. Advisor: Sergiu Iliev (Founder)",
       "highlights": [
         "Developed a custom Deep Learning model for oil spill classification using Google Earth Engine and Sentinel satellite data of the Mauritius oil spill (July 2020), engineering scalable pipelines and augmentations",
@@ -165,43 +165,112 @@
   "references": [
     {
       "name": "Professor Ashique KhudaBukhsh",
-      "reference": "Rochester Institute of Technology, Advisor"
+      "reference": "Rochester Institute of Technology, Advisor",
+      "position": "Assistant Professor",
+      "affiliation": "Rochester Institute of Technology",
+      "email": "axkvse@rit.edu"
     },
     {
       "name": "Professor Sumeet Kumar",
-      "reference": "Indian School of Business, Mentor & Collaborator"
+      "reference": "Indian School of Business, Advisor",
+      "position": "Assistant Professor",
+      "affiliation": "Indian School of Business",
+      "email": "sumeet_kumar@isb.edu"
     }
 ],
 "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "CVPR'25 Broadening Participation Participant Award",
+      "date": "2025-05-13",
+      "awarder": "IEEE/CVF",
+      "summary": "Award for participating in CVPR 2025 Broadening Participation program"
+    },
+    {
+      "title": "NeurIPS 2024 Reviewer Registration Support",
+      "date": "2024-11-26",
+      "awarder": "NeurIPS 2024",
+      "summary": "Received registration support for serving as a reviewer at the Machine Learning and the Physical Sciences Workshop at NeurIPS 2024"
+    },
+    {
+      "title": "PyTorch 2024 Conference Travel Support",
+      "date": "2024-09-08",
+      "awarder": "Linux Foundation",
+      "summary": "Received funding from Linux Foundation for attending PyTorch 2024 conference at San Francisco"
+    },
+    {
+      "title": "Full Merit Scholarship for Graduate Studies",
+      "date": "2024-04-15",
+      "awarder": "Rochester Institute of Technology",
+      "summary": "Awarded full merit scholarship for graduate studies at Rochester Institute of Technology"
+    },
+    {
+      "title": "Kathuria Pre-Doctoral Scholarship",
+      "date": "2023-01-21",
+      "awarder": "Shri Nihal Chand Kathuria Education Trust",
+      "summary": "Awarded prestigious Kathuria Pre-Doctoral Scholarship for showing excellence in pre-doctorship at Indian School of Business"
+    },
+    {
+      "title": "Full Scholarship for Undergraduate Studies",
+      "date": "2020-06-20",
+      "awarder": "Indian Academic Institution",
+      "summary": "Awarded full scholarship for undergraduate studies in lieu of exceptional performance in entrance examination and prior academic record"
+    },
+    {
+      "title": "Facebook AI Scholarship",
+      "date": "2019-09-13",
+      "awarder": "Facebook",
+      "summary": "Awarded highly competitive and prestigious Facebook AI Scholarship"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Thin Bridges for Drug Text Alignment: Lightweight Contrastive Learning for Target Specific Drug Retrieval",
+      "publisher": "Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop: 2nd Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2510.03309",
+      "summary": "Sole-authored publication developing lightweight contrastive learning for drug-text alignment. Achieved Recall@1 = 0.762 on ChEMBL and 3× scaffold-split gain over baselines."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Quantifying the academic quality of children's videos using machine comprehension",
+      "publisher": "INFORMS Journal on Computing",
+      "releaseDate": "2025",
+      "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0502",
+      "summary": "Developed multimodal machine-comprehension framework evaluating 48,956 YouTube Kids videos; achieved 77.5% accuracy on ScienceQA and F1 = 0.82 on CVQA dataset."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Large Language Models for Rating the Language of Children's Videos on YouTube",
+      "publisher": "Submitted to IEEE Transactions on Knowledge and Data Engineering",
+      "releaseDate": "2025",
+      "url": "https://www.isb.edu/faculty-and-research/research-directory/large-language-models-for-rating-the-language-of-childrens-videos-on-youtube",
+      "summary": "Co-authored research on using LLMs for language rating and quality assessment of children's educational content on YouTube."
+    },
+    {
+      "name": "Gender Biases and Stereotyping in Children's Videos: A Study on 100 Popular Kids Channels on YouTube",
+      "publisher": "Submitted to Nature Human Behaviour (previously rejected from PNAS)",
+      "releaseDate": "2025",
+      "url": "https://www.isb.edu/faculty-and-research/research-directory/gender-biases-and-stereotyping-in-children-s-videos-a-study-on-100-popular-kids-channels-on-youtube",
+      "summary": "Comprehensive study analyzing gender stereotyping across 100 popular YouTube channels for children."
+    },
+    {
+      "name": "Do Vision Transformers and Convolutional Neural Networks fit together?",
+      "publisher": "Under Conference Submission (Rejected from CVPR 2025)",
+      "releaseDate": "2025",
+      "url": "https://drive.google.com/file/d/1-A58GslDVe3OFK_5Ybz70HMfDY4aQjRI/view?usp=sharing",
+      "summary": "Research exploring the integration of Vision Transformers and CNNs for improved computer vision tasks."
+    },
+    {
+      "name": "Anonymous Dissent in the Digital Age: A YouTube Dislikes Dataset",
+      "publisher": "International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+      "releaseDate": "2024",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-78548-1_9",
+      "summary": "Developed YouTube Dislikes dataset for studying anonymous dissent and user engagement patterns on social media platforms."
+    },
+    {
+      "name": "[SRW] Gender Stereotyping in Popular Children's Videos",
+      "publisher": "The 61st Annual Meeting Of The Association For Computational Linguistics (ACL)",
+      "releaseDate": "2023",
+      "url": "https://aclanthology.org/",
+      "summary": "Student research workshop paper on analyzing gender stereotyping in children's video content."
     }
   ]
 }
