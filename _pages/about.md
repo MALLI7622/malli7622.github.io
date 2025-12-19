@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML Research @ [RIT](https://www.rit.edu/)
+subtitle: "ML Research @ <a href='https://www.rit.edu/'>RIT</a>"
 
 profile:
   align: right
