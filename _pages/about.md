@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML Research @ RIT
+subtitle: **ML Research @ [RIT](https://www.rit.edu/)** • Previously: [ISB](https://www.isb.edu/) / [Spacept](https://spacept.com/) / [IIT Madras](https://www.iitm.ac.in/) / [IIM Bangalore](https://www.iimb.ac.in/) • *learn ⇄ grow ⇄ teach*
+
 
 profile:
   align: right
