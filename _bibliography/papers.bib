@@ -12,7 +12,7 @@
   arxiv_id={2510.03309},
   url={https://arxiv.org/abs/2510.03309},
   html={https://arxiv.org/abs/2510.03309},
-  abstract={Sole-authored publication developing lightweight contrastive learning for drug-text alignment. Achieved Recall@1 = 0.762 on ChEMBL and 3× scaffold-split gain over baselines.},
+  abstract={     Multimodal foundation models hold promise for drug discovery and biomedical applications, but most existing approaches rely on heavy pretraining or large scale multimodal corpora. We investigate whether thin contrastive bridges, lightweight projection heads over frozen unimodal encoders can align chemical and textual representations without training a full multimodal model. Using paired mechanisms from ChEMBL, we align ECFP4 molecular fingerprints with biomedical sentence embeddings through dual linear projections trained with a contrastive objective. To better handle drugs sharing the same therapeutic target, we incorporate hard negative weighting and a margin loss. Evaluation under scaffold based splits, which require generalization across disjoint chemical cores, demonstrates that our approach achieves non-trivial cross modal alignment and substantially improves within target discrimination compared to frozen baselines. These results suggest that thin bridges offer a compute efficient alternative to large scale multimodal pretraining, enabling scaffold aware drug text alignment and target specific retrieval in precision medicine.},
   abbr={NeurIPS'25-FM4LS}
 }
 
@@ -26,7 +26,7 @@
   publisher={INFORMS},
   url={https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0502},
   html={https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0502},
-  abstract={Developed multimodal machine-comprehension framework evaluating 48,956 YouTube Kids videos; achieved 77.5% accuracy on ScienceQA and F1 = 0.82 on CVQA dataset.},
+  abstract={YouTube Kids (YTK) is one of the most popular kids' applications used by millions of kids daily. However, various studies have highlighted concerns such as the overpresence of entertaining and commercial content in the videos on the platform. At the same time, such video-hosting platforms contain many high-quality videos that, if appropriately ranked, could allow access to quality educational videos. However, finding and ranking videos based on their educational potential is a nontrivial task. To find highquality educational videos, this  esearch focuses on content that is taught in schools and proposes a way to rank children's videos using the answers to questions in children’s textbooks. Using a new data set of questions and answers from 1,000 children's videos, we first show that machine comprehension (MC) models can be used to automate finding answers to textbook questions based on video content. We then use another large data set of school textbook questions and an augmented MC model that uses both language and visual information to rank the top children’s channels on YTK with 48,956 videos. Based on the number of children’s textbook questions that the MC model can correctly answer using these videos, we quantify the academic quality of these channels. The analysis allows us to compare channels based on their academic content and enables us to find topics that are underrepresented in the existing videos. Our research thus provides an automated way to retrieve and rank quality educational content on large video-hosting platforms that are useful for academic learning.},
   abbr={INFORMS-IJOC}
 }
 
@@ -39,7 +39,7 @@
   year={2025},
   url={https://www.isb.edu/faculty-and-research/research-directory/large-language-models-for-rating-the-language-of-childrens-videos-on-youtube},
   html={https://www.isb.edu/faculty-and-research/research-directory/large-language-models-for-rating-the-language-of-childrens-videos-on-youtube},
-  abstract={Using LLMs for language rating and quality assessment of children's educational content on YouTube.},
+  abstract={With the rise of YouTube as the primary source of children’s entertainment, concerns have been raised about the lack of quality content. The absence of any video quality indicator and no certification process, even for videos with billions of views, aggravates parental worries. To address these concerns, we propose a machine-learning based approach to assess the language quality of children’s videos and then followed by LLM to generate the summary. We use labeled data from a movie rating website (meant for parents to decide on a movie’s appropriateness) to train a deep-learning model for rating the language used in YouTube Kids’ videos. We further augment the deep-learning model with a Large Language Model (LLM) that generates a text summary stating the reason for the rating and highlighting keywords and phrases inappropriate for children. Using the proposed system, we analyze over 85,000 videos from the top 100 YouTube Kid’s channels and compare them against Disney/Pixar movies that are certified for children’s viewing. Our analysis reveals that certified movies generally have a lower language rating than YouTube Kid’s channels (lower is better), and animations on YouTube usually have lower language ratings than non-animations on YouTube. Our analysis highlights a need for more stringent guidelines for video creators creating children’s content.},
   abbr={ArXiv}
 }
 
@@ -51,7 +51,7 @@
   year={2025},
   url={https://www.isb.edu/faculty-and-research/research-directory/gender-biases-and-stereotyping-in-children-s-videos-a-study-on-100-popular-kids-channels-on-youtube},
   html={https://www.isb.edu/faculty-and-research/research-directory/gender-biases-and-stereotyping-in-children-s-videos-a-study-on-100-popular-kids-channels-on-youtube},
-  abstract={Comprehensive study analyzing gender stereotyping across 100 popular YouTube channels for children.},
+  abstract={The initial years of a child's life play a crucial role in gender development, establishing the foundation for subsequent experiences and choices. As a predominant platform for children, YouTube has substantial influence over how young males and females perceive and engage with the world. This research investigates the prevalence of social biases and stereotyping in children's videos across the top 100 popular YouTube Kids (YTK) channels, encompassing over 48,000 videos. Using video transcripts and video picture frames, we examine gender stereotypes in both language and visuals. Popular language-based gender bias estimation methods, including the Word Embedding Association Test (WEAT), reveal distinct gender biases in occupations children aspire to and core educational subjects like mathematics and science. Videos from non-animated YTK channels exhibit stronger correlations with societal biases than animated videos. Within the visual medium, we again identify significant gender disparities, with women underrepresented in videos discussing many occupations. Color-related stereotyping manifests in females' predominance in `pink' attire, and gender stereotyping extends to emotional expressions, with females smiling more often than males. The experience of gender stereotyping and sexism is known to affect the development of children's abilities and preferences. Therefore, the study's findings raise important concerns, highlighting a need for more regulations in creating and recommending kids' content.},
   abbr={ArXiv}
 }
 
@@ -64,7 +64,7 @@
   year={2025},
   url={https://drive.google.com/file/d/1-A58GslDVe3OFK_5Ybz70HMfDY4aQjRI/view?usp=sharing},
   html={https://drive.google.com/file/d/1-A58GslDVe3OFK_5Ybz70HMfDY4aQjRI/view?usp=sharing},
-  abstract={Research exploring the integration of Vision Transformers and CNNs for improved computer vision tasks.},
+  abstract={Historically, Convolutional Neural Networks have been the best models for visual recognition tasks. With Vision Transformers showing the same performance or even surpassing the performance of ConvNets, we pose the research question: do both networks fit together? We propose a novel hybrid novel architecture that seamlessly integrates convolutional neural networks (CNNs) and Vision Transformers (ViTs) through a dedicated trainable connecting layer. In our approach, a lightweight ”PatchEmbedWithCls” module transforms CNN feature maps into a sequence of patch embeddings by extracting non-overlapping patches, projecting each patch via linear layer, and prepending a learning class token. This design enables us to stitch the lower layers of a CNN with the upper layers of ViT, and we utilize the Centered Kernel Alignment (CKA) measure to quan tify the alignment of hidden representations across these architectures. Extensive experiments on standard image classification benchmarks demonstrate that our hybrid model not only maintains decent performance but also reveals complementary properties of local and global feature extraction. Our findings provide new insights into the compatibility and transferability of representations across different architectures, paving the way for the design of more effective hybrid models.},
   abbr={ArXiv}
 }
 
@@ -77,7 +77,7 @@
   organization={Springer},
   url={https://link.springer.com/chapter/10.1007/978-3-031-78548-1_9},
   html={https://link.springer.com/chapter/10.1007/978-3-031-78548-1_9},
-  abstract={Developed YouTube Dislikes dataset for studying anonymous dissent and user engagement patterns on social media platforms.},
+  abstract={On December 13, 2021, YouTube made a major policy change with respect to the visibility of video dislikes. Citing the need to protect the well-being of individual content creators, YouTube stated that dislike information will only be visible to the video owners thus abolishing a decade-long tradition of publicly visible, anonymous outlet for user dissent. This paper makes two key contributions. First, it releases a valuable dataset of dislike information from 8.3 million videos gleaned from 159 popular news and debate outlets to characterize and chronicle the dislike behavior on YouTube. Second, it quantifies and investigates the information gap that this policy change leaves us with.},
   abbr={ASONAM'24}
 }
 
@@ -88,7 +88,7 @@
   year={2023},
   url={https://virtual2023.aclweb.org/paper_S32.html},
   html={https://virtual2023.aclweb.org/paper_S32.html},
-  abstract={Student research workshop paper on analyzing gender stereotyping in children's video content.},
+  abstract={The initial years of a child's life play a crucial role in gender development, establishing the foundation for subsequent experiences and choices. As a predominant platform for children, YouTube has substantial influence over how young males and females perceive and engage with the world. This research investigates the prevalence of social biases and stereotyping in children's videos across the top 100 popular YouTube Kids (YTK) channels, encompassing over 48,000 videos. Using video transcripts and video picture frames, we examine gender stereotypes in both language and visuals. Popular language-based gender bias estimation methods, including the Word Embedding Association Test (WEAT), reveal distinct gender biases in occupations children aspire to and core educational subjects like mathematics and science. Videos from non-animated YTK channels exhibit stronger correlations with societal biases than animated videos. Within the visual medium, we again identify significant gender disparities, with women underrepresented in videos discussing many occupations. Color-related stereotyping manifests in females' predominance in `pink' attire, and gender stereotyping extends to emotional expressions, with females smiling more often than males. The experience of gender stereotyping and sexism is known to affect the development of children's abilities and preferences. Therefore, the study's findings raise important concerns, highlighting a need for more regulations in creating and recommending kids' content.},
   abbr={ACL-SRW'23}
 }
 
