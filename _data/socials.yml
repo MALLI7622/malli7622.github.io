@@ -15,18 +15,18 @@ cv_pdf: /assets/pdf/Mallikarjuna_CV.pdf # path to your CV PDF file
 email: tmallikarjuna1111@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
+github_username: MALLI7622 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: # Inspire HEP author ID (disabled until provided)
-# instagram_id: # your instagram id
+instagram_id: cherie_arjun # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: neuralnerd # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -35,8 +35,8 @@ email: tmallikarjuna1111@gmail.com # your email address
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: # your Google Scholar ID (disabled until provided)
+# rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: 36baViwAAAAJ # your Google Scholar ID (disabled until provided)
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -49,7 +49,7 @@ rss_icon: true # comment this line to hide the RSS icon
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-# x_username: # your X handle
+x_username: _neuralnerd_
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # Example of a custom icon; add your own logo+url here if desired
