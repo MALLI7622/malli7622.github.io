@@ -25,51 +25,59 @@
   "work": [
     {
       "name": "Rochester Institute of Technology",
-      "position": "ML Researcher",
+      "position": "Graduate Research Assistant | ML Research",
       "url": "https://www.rit.edu/",
-      "startDate": "2024-01-01",
+      "startDate": "2024-09-01",
       "endDate": "",
-      "summary": "Independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI.",
-      "highlights": ["NeurIPS'25 FM4LS Workshop Publication (Sole Author)", "Full Graduate Scholarship (Merit-based)", "Advisor: Professor Ashique KhudaBukhsh"]
+      "summary": "Independent student researcher working on AI Safety, AI for Science, Multimodal Learning, and NeuroAI. Advisor: Prof. Ashique KhudaBukhsh",
+      "highlights": [
+        "Sole-authored publication at NeurIPS 2025 (FM4LS) on 'Thin Bridges for Drug Text Alignment: Lightweight Contrastive Learning for Target Specific Drug Retrieval' - achieving Recall@1 = 0.762 on ChEMBL and 3× scaffold-split gain over baselines",
+        "Co-authored publication in INFORMS Journal on Computing: developed multimodal machine-comprehension framework evaluating 48,956 YouTube Kids videos; achieved 77.5% accuracy on ScienceQA and F1 = 0.82 on CVQA dataset",
+        "Developing diffusion-based brain decoding pipelines using fMRI data and image reconstruction for multimodal perception tasks with Stable Diffusion and CLIP embeddings",
+        "Developing large-scale empathetic dialogue systems using CANDOR dataset (1 TB video/audio/text) and studying LLM neuron interpretability to align multimodal agents with human values for safer reasoning in medical and financial domains"
+      ]
     },
     {
       "name": "Indian School of Business",
       "position": "Full-time Researcher",
       "url": "https://www.isb.edu/",
-      "startDate": "2021-01-01",
-      "endDate": "2024-01-01",
-      "summary": "Full-time researcher working on AI for Social Good and computational social science projects.",
-      "highlights": ["Publications in NeurIPS, ACL, ASONAM, INFORMS conferences", "Awarded Kathuria Pre-Doctoral Scholarship", "Mentor: Professor Sumeet Kumar"]
+      "startDate": "2020-01-01",
+      "endDate": "2024-08-01",
+      "summary": "Full-time researcher working on AI for Social Good and computational social science projects with Prof. Sumeet Kumar",
+      "highlights": [
+        "Publications at top-tier venues: NeurIPS, ACL, ASONAM, INFORMS Journal on Computing, INFORMS on Data Science, and AAAI",
+        "Awarded prestigious Kathuria Pre-Doctoral Scholarship from Shri Nihal Chand Kathuria Education Trust",
+        "Developed YouTube Dislikes dataset and conducted studies on gender biases and stereotyping in children's videos",
+        "Collaborated on automatic speech recognition failure detection and correction dataset published at AAAI"
+      ]
     }
   ],
   "volunteer": [],
   "education": [
     {
       "institution": "Rochester Institute of Technology, Rochester, NY",
+      "location": "Rochester, New York, USA",
       "url": "https://www.rit.edu/",
-      "area": "Computer Science",
-      "studyType": "MS",
+      "area": "Computer Software & Machine Learning",
+      "studyType": "M.S",
       "startDate": "2024-09-01",
-      "endDate": "",
-      "score": "Full Graduate Scholarship (Merit-based)",
-      "courses": ["AI Safety", "AI for Science", "Multimodal Learning", "NeuroAI"]
+      "endDate": "-",
+      "score": "Full Graduate Scholarship (Merit-based)"
     },
     {
-      "institution": "Education Background",
-      "url": "",
+      "institution": "Acharya Nagarjuna University",
+      "url": "https://www.nagarjunauniversity-ac.in/",
       "area": "Computer Science & Engineering",
-      "studyType": "BE",
-      "startDate": "",
-      "endDate": "",
-      "score": ""
+      "studyType": "B.Tech",
+      "startDate": "June 2016",
+      "endDate": "May 2020"
     }
   ],
-  "certificates": [],
   "skills": [
     {
       "name": "Machine Learning",
       "level": "Expert",
-      "keywords": ["Deep Learning", "Probabilistic Modeling", "Neural Networks"]
+      "keywords": ["Computer Vision", "Deep Learning", "Probabilistic Modeling", "Neural Networks"]
     },
     {
       "name": "AI Research",
@@ -79,7 +87,7 @@
     {
       "name": "Programming",
       "level": "Expert",
-      "keywords": ["Python", "PyTorch", "TensorFlow", "Research"]
+      "keywords": ["Python", "PyTorch", "C/C++", "Java", "MATLAB"]
     },
     {
       "name": "Data Science",
@@ -104,11 +112,11 @@
   "interests": [
     {
       "name": "AI Safety",
-      "keywords": ["Safe AI Systems", "Alignment Research", "Robust ML"]
+      "keywords": ["Safe AI Systems", "Interpretability"]
     },
     {
       "name": "AI for Science",
-      "keywords": ["Drug Discovery", "Scientific ML", "Foundation Models"]
+      "keywords": ["Drug Discovery", "Scientific ML", "Foundation Models", "NeuroAI"]
     },
     {
       "name": "Multimodal Learning",
@@ -124,69 +132,14 @@
       "name": "Professor Sumeet Kumar",
       "reference": "Indian School of Business, Mentor & Collaborator"
     }
-  ]
-}
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+],
+"awards": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
       "awarder": "Royal Swedish Academy of Sciences",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
@@ -210,69 +163,6 @@
       "releaseDate": "1916-03-20",
       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
