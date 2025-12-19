@@ -29,6 +29,11 @@ latest_posts:
 
 Hey, Nice to e-meet you 👋, maybe we can meet one day in person maybe over a coffee chat 🤗.
 
+> **"Karmanye vadhikaraste ma phaleshu kadachana"** — Bhagavad Gita  
+> "You have the right to work, but for the work's sake only. You have no right to the fruits of work."
+>
+> This quote from the Bhagavad Gita is one that I wholeheartedly believe in and try to live by. It guides my approach to research and life.
+
 I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on `AI Safety`, `AI for Science`, `Multimodal Learning`, and `NeuroAI`.
 
 My passion towards research leads to sole-author publication at NeurIPS'25 FM4LS which I more proud of and got a collaboration after attending the conference for presenting my work.
