@@ -391,16 +391,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-my-sole-author-publication-at-neurips-39-25-fm4ls-https-nips2025fm4ls-github-io-pages-organizers-html-on-drug-text-alignment-please-read-my-paper-and-let-39-s-meet-at-neurips-39-25",
+          title: 'My sole author publication at [NeurIPS&amp;#39;25 FM4LS](https://nips2025fm4ls.github.io/pages/organizers.html) on Drug-Text Alignment. Please read my...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-i-received-a-complimentary-registration-for-attending-neurips-25-sparkles-smilie",
+          title: 'I received a complimentary registration for attending NeurIPS’25 :sparkles: :smilie:',
+          description: "",
+          section: "News",},{id: "news-i-am-at-san-diego-for-presenting-my-work-at-neurips-25-feel-free-to-send-an-email-to-catchup-smilie",
+          title: 'I am at San Diego for presenting my work at NeurIPS’25, feel free...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
