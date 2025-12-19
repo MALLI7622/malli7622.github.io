@@ -30,7 +30,7 @@ latest_posts:
 Hey, Nice to e-meet you 👋, maybe we can meet one day in person maybe over a coffee chat 🤗.
 
 > **"Karmanye vadhikaraste ma phaleshu kadachana"** — Bhagavad Gita  
-> "You have the right to work, but for the work's sake only. You have no right to the fruits of work."
+> "You have the right to perform your duty (action), but you are not entitled to the results or fruits of your actions"
 >
 > This quote from the Bhagavad Gita is one that I wholeheartedly believe in and try to live by. It guides my approach to research and life.
 
