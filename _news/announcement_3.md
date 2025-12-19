@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My sole author publication at <a href='https://nips2025fm4ls.github.io/pages/organizers.html'> NeurIPS'25 FM4LS </a> on Drug-Text Alignment. Please read my paper and let's meet at NeurIPS'25"
+title: "My sole author publication at <a href='https://nips2025fm4ls.github.io/pages/organizers.html'> NeurIPS'25 FM4LS </a> on <a href='https://arxiv.org/abs/2510.03309'>Drug-Text Alignment</a>. Please read my paper and let's meet at NeurIPS'25"
 date: Tuesday, Sep 23, 12:50 AM
 inline: false
 related_posts: false
