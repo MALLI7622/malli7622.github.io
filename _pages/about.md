@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "ML Research @ <a href='https://www.rit.edu/'>Rochester Institute of Technology </a> & <a href='https://www.isb.edu/'>Indian School of Business</a> | Previously at <a href='https://spacept.com/'>Spacept</a>, <a href='https://www.iitm.ac.in/'>IIT Madras</a>, <a href='https://www.iimb.ac.in/'>IIM Bangalore</a>"
+subtitle: "AI Researcher @ <a href='https://ifm.ai/'>Institute of Foundation Models (IFM), MBZUAI</a>, Silicon Valley | ML Research @ <a href='https://www.rit.edu/'>Rochester Institute of Technology</a> & <a href='https://www.isb.edu/'>Indian School of Business</a> | Previously at <a href='https://spacept.com/'>Spacept</a>, <a href='https://www.iitm.ac.in/'>IIT Madras</a>, <a href='https://www.iimb.ac.in/'>IIM Bangalore</a>"
 
 profile:
   align: right
@@ -34,7 +34,7 @@ Hey, Nice to e-meet you 👋, maybe we can meet one day in person maybe over a c
 >
 > This quote from the Bhagavad Gita is one that I wholeheartedly believe in and try to live by. It guides my approach to research and life.
 
-I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on `AI Safety`, `AI for Science`, `Multimodal Learning`, and `NeuroAI`.
+I am currently an AI Researcher at the <a href='https://ifm.ai/'>Institute of Foundation Models (IFM), MBZUAI</a> in Silicon Valley (Sunnyvale, CA), working towards improving model capabilities on science and mathematics. I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on `AI Safety`, `AI for Science`, `Multimodal Learning`, and `NeuroAI`.
 
 My passion towards research leads to sole-author publication at NeurIPS'25 FM4LS which I more proud of and got a collaboration after attending the conference for presenting my work.
 
