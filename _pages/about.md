@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: "AI Researcher @ <a href='https://ifm.ai/'>Institute of Foundation Models (IFM), MBZUAI</a>, Silicon Valley | ML Research @ <a href='https://www.rit.edu/'>Rochester Institute of Technology</a> & <a href='https://www.isb.edu/'>Indian School of Business</a> | Previously at <a href='https://spacept.com/'>Spacept</a>, <a href='https://www.iitm.ac.in/'>IIT Madras</a>, <a href='https://www.iimb.ac.in/'>IIM Bangalore</a>"
+subtitle: "AI Researcher · <a href='https://ifm.ai/'>Institute of Foundational Models, MBZUAI</a>"
+hero_title: "Mallikarjuna Tupakula"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>430 Apartment-C Clayton Arms</p>
-    <p>Clay Road, Henrietta</p>
-    <p>Rochester, NY 14623</p>
+    <blockquote class="medhini-side-quote">
+      <p><strong>“Karmanye vadhikaraste ma phaleshu kadachana”</strong> — Bhagavad Gita</p>
+      <p>“You have the right to perform your duty (action), but you are not entitled to the results or fruits of your actions”</p>
+    </blockquote>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -21,29 +23,40 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
+awards:
+  enabled: true
+  items:
+    - title: "Google Cloud Platform Credit Award"
+      summary: "Received Google Cloud Platform credit support as part of the TPU Builders program."
+      date: "March 2026"
+    - title: "CVPR'25 Broadening Participation Participant Award"
+      summary: "Selected for the CVPR 2025 Broadening Participation program."
+      date: "May 13, 2025"
+    - title: "NeurIPS 2024 Reviewer Registration Support"
+      summary: "Received registration support from the Machine Learning and the Physical Sciences Workshop for serving as a reviewer."
+      date: "November 26, 2024"
+    - title: "PyTorch 2024 Conference Travel Support"
+      summary: "Received Linux Foundation funding to attend the PyTorch 2024 conference in San Francisco."
+      date: "September 8, 2024"
+    - title: "Full Merit Scholarship for Graduate Studies"
+      summary: "Awarded a full merit scholarship for graduate studies at Rochester Institute of Technology."
+      date: "April 15, 2024"
+    - title: "Kathuria Pre-Doctoral Scholarship"
+      summary: "Awarded by Shri Nihal Chand Kathuria Education Trust for excellence in pre-doctoral research at Indian School of Business."
+      date: "January 21, 2023"
+    - title: "Full Scholarship for Undergraduate Studies"
+      summary: "Awarded for exceptional entrance examination performance and prior academic record."
+      date: "June 2016 - April 2020"
+    - title: "Facebook AI Scholarship"
+      summary: "Awarded the competitive Facebook AI Scholarship."
+      date: "September 13, 2019"
+
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, Nice to e-meet you 👋, maybe we can meet one day in person maybe over a coffee chat 🤗.
+Hi! I am an AI Researcher at the <a href='https://ifm.ai/'>Institute of Foundational Models, MBZUAI</a> in Silicon Valley, working with [Mikhail Yurochkin](https://moonfolk.github.io/) on improving foundation-model capabilities for science and mathematics, and evaluating scientific benchmarks. I am also completing my MS in Computer Science at <a href='https://www.rit.edu/'>Rochester Institute of Technology</a> with a full graduate merit scholarship.
 
-> **"Karmanye vadhikaraste ma phaleshu kadachana"** — Bhagavad Gita  
-> "You have the right to perform your duty (action), but you are not entitled to the results or fruits of your actions"
->
-> This quote from the Bhagavad Gita is one that I wholeheartedly believe in and try to live by. It guides my approach to research and life.
-
-I am currently an AI Researcher at the <a href='https://ifm.ai/'>Institute of Foundation Models (IFM), MBZUAI</a> in Silicon Valley (Sunnyvale, CA), working towards improving model capabilities on science and mathematics. I am currently sailing to finish my MS and doing more research than my academics. I received full graduate scholarship for my studies on merit basis. I myself consider as an independent student researcher working on `AI Safety`, `AI for Science`, `Multimodal Learning`, and `NeuroAI`.
-
-My passion towards research leads to sole-author publication at NeurIPS'25 FM4LS which I more proud of and got a collaboration after attending the conference for presenting my work.
-
-At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/) and active collaboration with Professor [Sumeet Kumar](https://sumeetkumar.in/) at the Indian School of Business working on AI Safety, and AI for Social Good.
-
-Previously, I was a full-time researcher at the Indian School of Business almost 4 years working with Professor [Sumeet Kumar](https://sumeetkumar.in/) and my work has lead to publications in top AI conferences and awarded prestigious Kathuria Pre-Doctoral Scholarship from **Shri Nihal Chand Kathuria Education Trust**. Over the years I have published my research work at **NeurIPS**, **INFORMS Journal on Computing**, **ACL**, **ASONAM**, **INFORMS on Data Science**, and the dataset I developed on failures on Automatic Speech Recognition and correcting it has been published at AAAI.
-
-I would love to attend ML conferences like _NeurIPS_, _CVPR_ to meet researchers to discuss work and life and actively review papers for conferences.
-
-In my spare time, I enjoy travelling, gym, sports(mostly squash but up for everything), and going on hikes with random people to make them friends. Also, I grown up in small town in India called Cumbum in Andhra Pradesh.
-
-I'm always up for chatting about life, research or anything, feel to free email me 🙂
+At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/) and collaborate with Professor [Sumeet Kumar](https://sumeetkumar.in/) at the Indian School of Business. Previously, I spent nearly four years as a full-time researcher at ISB, publishing at **NeurIPS**, **INFORMS Journal on Computing**, **ACL**, **ASONAM**, and **INFORMS on Data Science**, and receiving the Kathuria Pre-Doctoral Scholarship.

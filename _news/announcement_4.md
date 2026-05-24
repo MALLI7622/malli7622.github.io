@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have started my internship as an AI Researcher at the <a href="https://ifm.ai/">Institute of Foundation Models (IFM), MBZUAI</a> in Silicon Valley (Sunnyvale, CA), working on improving model capabilities on science and mathematics! :rocket:
+I have started my internship as an AI Researcher at the <a href="https://ifm.ai/">Institute of Foundational Models, MBZUAI</a> in Silicon Valley (Sunnyvale, CA), working on improving model capabilities on science and mathematics! :rocket:

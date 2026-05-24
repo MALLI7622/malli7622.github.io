@@ -1,80 +1,232 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+{% assign socials = site.data.socials %}
+{% assign profile_image = page.profile.image | default: site.icon %}
+{% assign profile_image_path = profile_image | prepend: 'assets/img/' | relative_url %}
+{% capture fallback_name %}{{ site.first_name }} {{ site.last_name }}{% endcapture %}
+{% assign display_name = page.hero_title | default: fallback_name %}
+{% assign title_line = page.title_line | default: page.subtitle | default: 'AI Researcher · IFM, MBZUAI · Rochester Institute of Technology' %}
+
+<nav class="medhini-topnav" id="medhini-topnav">
+  <div class="medhini-topnav__inner">
+    <a class="medhini-topnav__name" href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a>
+    <div class="medhini-topnav__links">
+      {% if page.announcements.enabled %}
+        <a href="#updates">Updates</a>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+      {% if page.awards.enabled %}
+        <a href="#awards">Awards</a>
+      {% endif %}
+      <a href="#research">Research</a>
+      {% if socials.cv_pdf %}
+        <a href="{{ socials.cv_pdf | relative_url }}">CV</a>
+      {% else %}
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+<main class="medhini-home">
+  <div class="medhini-hero">
+    <div class="medhini-hero__bio">
+      <h1>{{ display_name }}</h1>
+      <div class="medhini-title-line">{{ title_line }}</div>
+
+      <div class="medhini-copy">
+        {{ content }}
+      </div>
+
+      <div class="medhini-links" aria-label="Profile links">
+        {% if socials.email %}
+          <a href="mailto:{{ socials.email | encode_email }}" title="Email" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m2 7 10 7 10-7"></path>
+            </svg>
+          </a>
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% if socials.cv_pdf %}
+          <a class="medhini-links__cv" href="{{ socials.cv_pdf | relative_url }}" title="CV">CV</a>
+        {% endif %}
+        {% if socials.scholar_userid %}
+          <a href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}" title="Google Scholar" aria-label="Google Scholar">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5z"></path>
+            </svg>
+          </a>
+        {% endif %}
+        {% if socials.x_username %}
+          <a href="https://twitter.com/{{ socials.x_username }}" title="Twitter / X" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+            </svg>
+          </a>
+        {% endif %}
+        {% if socials.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ socials.linkedin_username }}" title="LinkedIn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        {% endif %}
+        {% if socials.github_username %}
+          <a href="https://github.com/{{ socials.github_username }}" title="GitHub" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"></path>
+            </svg>
+          </a>
         {% endif %}
       </div>
-    {% endif %}
+    </div>
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="medhini-hero__photo">
+      <img src="{{ profile_image_path }}" alt="{{ site.first_name }} {{ site.last_name }}" loading="eager">
+      {% if page.profile.more_info %}
+        <div class="medhini-profile-info">{{ page.profile.more_info }}</div>
+      {% endif %}
+    </div>
+  </div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+  {% if page.announcements.enabled and site.news != blank %}
+    {% assign news_size = site.news | size %}
+    {% assign news_items = site.news | reverse %}
+    {% assign news_limit = page.announcements.limit | default: news_size %}
+    <section id="updates" class="medhini-section medhini-updates">
+      <h2 class="medhini-display-heading">Updates</h2>
+      <div class="medhini-updates-card{% if page.announcements.scrollable and news_size > 3 %} medhini-updates-card--scroll{% endif %}">
+        {% for item in news_items limit: news_limit %}
+          <article class="medhini-update">
+            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%b %Y' }}</time>
+            <div class="medhini-update__content">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
       </div>
-    {% endif %}
+    </section>
+  {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
-</div>
+  {% if page.awards.enabled and page.awards.items %}
+    <section id="awards" class="medhini-section medhini-awards">
+      <h2 class="medhini-display-heading">Awards &amp; Honors</h2>
+      <div class="medhini-awards-list">
+        {% for award in page.awards.items %}
+          <article class="medhini-award-card">
+            <span class="medhini-award-card__icon" aria-hidden="true">&#127942;</span>
+            <div class="medhini-award-card__body">
+              <h3>{{ award.title }}</h3>
+              <p>{{ award.summary }}</p>
+              <time>{{ award.date }}</time>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section id="research" class="medhini-section">
+    <h2 class="medhini-section-label">Research</h2>
+
+    <div class="medhini-papers">
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">NeurIPS FM4LS</span><span class="medhini-paper__year">2025</span></div>
+          <h3 class="medhini-paper__title">Thin Bridges for Drug Text Alignment: Lightweight Contrastive Learning for Target Specific Drug Retrieval</h3>
+          <p class="medhini-paper__authors"><strong>Mallikarjuna Tupakula</strong></p>
+          <div class="medhini-paper__links">
+            <a href="https://arxiv.org/abs/2510.03309">Paper</a>
+            <span>·</span>
+            <a href="https://arxiv.org/abs/2510.03309">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">INFORMS IJOC</span><span class="medhini-paper__year">2025</span></div>
+          <h3 class="medhini-paper__title">Quantifying the Academic Quality of Children's Videos Using Machine Comprehension</h3>
+          <p class="medhini-paper__authors">Sumeet Kumar, <strong>Mallikarjuna Tupakula</strong>, Ashiqur R. KhudaBukhsh</p>
+          <div class="medhini-paper__links">
+            <a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0502">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">ASONAM</span><span class="medhini-paper__year">2024</span></div>
+          <h3 class="medhini-paper__title">Anonymous Dissent in the Digital Age: A YouTube Dislikes Dataset</h3>
+          <p class="medhini-paper__authors">Sujan Dutta, <strong>Mallikarjuna Tupakula</strong>, Sumeet Kumar, Ashiqur R. KhudaBukhsh</p>
+          <div class="medhini-paper__links">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-78548-1_9">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">ACL SRW</span><span class="medhini-paper__year">2023</span></div>
+          <h3 class="medhini-paper__title">Gender Stereotyping in Popular Children's Videos</h3>
+          <p class="medhini-paper__authors">Tiasa Singha Roy, <strong>Mallikarjuna Tupakula</strong>, Sumeet Kumar, Ashiqur KhudaBukhsh</p>
+          <div class="medhini-paper__links">
+            <a href="https://virtual2023.aclweb.org/paper_S32.html">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">Preprint</span><span class="medhini-paper__year">2025</span></div>
+          <h3 class="medhini-paper__title">Large Language Models for Rating the Language of Children's Videos on YouTube</h3>
+          <p class="medhini-paper__authors">Sumeet Kumar, <strong>Mallikarjuna Tupakula</strong>, Ashiqur R. KhudaBukhsh</p>
+          <div class="medhini-paper__links">
+            <a href="https://www.isb.edu/faculty-and-research/research-directory/large-language-models-for-rating-the-language-of-childrens-videos-on-youtube">Preprint</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">Preprint</span><span class="medhini-paper__year">2025</span></div>
+          <h3 class="medhini-paper__title">Gender Biases and Stereotyping in Children's Videos: A Study on 100 Popular Kids Channels on YouTube</h3>
+          <p class="medhini-paper__authors">Sumeet Kumar, <strong>Mallikarjuna Tupakula</strong>, Ashiqur R. KhudaBukhsh</p>
+          <div class="medhini-paper__links">
+            <a href="https://www.isb.edu/faculty-and-research/research-directory/gender-biases-and-stereotyping-in-children-s-videos-a-study-on-100-popular-kids-channels-on-youtube">Preprint</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="medhini-paper">
+        <div class="medhini-paper__body">
+          <div class="medhini-paper__venue-row"><span class="medhini-venue-badge">Working Paper</span><span class="medhini-paper__year">2025</span></div>
+          <h3 class="medhini-paper__title">Do Vision Transformers and Convolutional Neural Networks Fit Together?</h3>
+          <p class="medhini-paper__authors"><strong>Mallikarjuna Tupakula</strong></p>
+          <div class="medhini-paper__links">
+            <a href="https://drive.google.com/file/d/1-A58GslDVe3OFK_5Ybz70HMfDY4aQjRI/view?usp=sharing">Draft</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="medhini-footer">
+    <p>© {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}</p>
+  </footer>
+</main>
+
+<script>
+  const medhiniNav = document.getElementById("medhini-topnav");
+  if (medhiniNav) {
+    window.addEventListener("scroll", () => {
+      medhiniNav.classList.toggle("scrolled", window.scrollY > 10);
+    });
+  }
+</script>
