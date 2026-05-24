@@ -391,21 +391,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-my-sole-author-publication-at-neurips-39-25-fm4ls-on-drug-text-alignment-please-read-my-paper-and-let-39-s-meet-at-neurips-39-25",
+          title: 'My sole author publication at NeurIPS&amp;#39;25 FM4LS on Drug-Text Alignment. Please read my...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
             },},{id: "news-i-received-a-complimentary-registration-for-attending-neurips-25-sparkles-smiley",
           title: 'I received a complimentary registration for attending NeurIPS’25 :sparkles: :smiley:',
           description: "",
           section: "News",},{id: "news-i-am-at-san-diego-for-presenting-my-work-at-neurips-25-feel-free-to-send-an-email-to-catchup-smiley",
           title: 'I am at San Diego for presenting my work at NeurIPS’25, feel free...',
           description: "",
-          section: "News",},{id: "news-i-have-started-my-internship-as-an-ai-researcher-at-the-institute-of-foundation-models-ifm-mbzuai-in-silicon-valley-sunnyvale-ca-working-on-improving-model-capabilities-on-science-and-mathematics-rocket",
+          section: "News",},{id: "news-i-have-started-my-internship-as-an-ai-researcher-at-the-institute-of-foundational-models-mbzuai-in-silicon-valley-sunnyvale-ca-working-on-improving-model-capabilities-on-science-and-mathematics-rocket",
           title: 'I have started my internship as an AI Researcher at the Institute of...',
           description: "",
-          section: "News",},{id: "news-my-sole-author-publication-at-neurips-39-25-fm4ls-on-drug-text-alignment-please-read-my-paper-and-let-39-s-meet-at-neurips-39-25",
-          title: 'My sole author publication at NeurIPS&amp;#39;25 FM4LS on Drug-Text Alignment. Please read my...',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
