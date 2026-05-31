@@ -57,6 +57,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am an AI Researcher at the <a href='https://ifm.ai/'>Institute of Foundational Models, MBZUAI</a> in Silicon Valley, working with [Mikhail Yurochkin](https://moonfolk.github.io/) on improving foundation-model capabilities for science and mathematics, and evaluating scientific benchmarks. I am also completing my MS in Computer Science at <a href='https://www.rit.edu/'>Rochester Institute of Technology</a> with a full graduate merit scholarship.
+Hi! I am an AI Researcher at the <a href='https://ifm.ai/'>Institute of Foundational Models, MBZUAI</a> in Silicon Valley, working with [Mikhail Yurochkin](https://moonfolk.github.io/) on improving foundation-model capabilities for science and mathematics, and evaluating scientific benchmarks. I work closely with Professor Sanghamitra Dutta on AI for Science to understand model behaviour using interpretability. I am completing my MS in Computer Science at <a href='https://www.rit.edu/'>Rochester Institute of Technology</a> with a full graduate merit scholarship.
 
 At RIT, I work with Professor [Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/) and collaborate with Professor [Sumeet Kumar](https://sumeetkumar.in/) at the Indian School of Business. Previously, I spent nearly four years as a full-time researcher at ISB, publishing at **NeurIPS**, **INFORMS Journal on Computing**, **ACL**, **ASONAM**, and **INFORMS on Data Science**, and receiving the Kathuria Pre-Doctoral Scholarship.
